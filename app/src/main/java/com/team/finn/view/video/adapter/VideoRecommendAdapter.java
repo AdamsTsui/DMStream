@@ -147,8 +147,6 @@ public class VideoRecommendAdapter extends BaseRecyclerAdapter<RecyclerView.View
     }
 
     /**
-     * 颜值 栏目
-     *
      * @param holder
      * @param position
      * @param isItem
@@ -206,7 +204,7 @@ public class VideoRecommendAdapter extends BaseRecyclerAdapter<RecyclerView.View
     }
 
     /**
-     * 栏目
+     *  最热栏目
      *
      * @param holder
      * @param position
