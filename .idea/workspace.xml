@@ -7,570 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c71f0594-f92f-46e9-b122-97ddcce3af97" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/buildConfig/androidTest/debug/io/vov/vitamio/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/buildConfig/debug/io/vov/vitamio/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/buildConfig/release/io/vov/vitamio/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/r/androidTest/debug/io/vov/vitamio/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/r/androidTest/debug/io/vov/vitamio/test/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/r/debug/io/vov/vitamio/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/generated/source/r/release/io/vov/vitamio/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/single/drawable-ldpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libOMX.24.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/arm64-v8a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libOMX.11.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvvo.7.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvvo.8.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/armeabi-v7a/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/jni/x86/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/mediacontroller_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/mediacontroller_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_control_disabled_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_control_focused_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_control_normal_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_control_pressed_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_primary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_secondary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/layout/mediacontroller.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/debug/res/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-ldpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/mediacontroller_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/mediacontroller_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_control_disabled_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_control_focused_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_control_normal_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_control_pressed_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_primary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_secondary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable/mediacontroller_button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable/scrubber_control_selector_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/drawable/scrubber_progress_horizontal_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/layout/mediacontroller.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/default/res/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libOMX.24.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/arm64-v8a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libOMX.11.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvvo.7.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvvo.8.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/armeabi-v7a/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/jni/x86/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-ldpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/mediacontroller_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/mediacontroller_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_control_disabled_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_control_focused_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_control_normal_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_control_pressed_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_primary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_secondary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable/mediacontroller_button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable/scrubber_control_selector_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/drawable/scrubber_progress_horizontal_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/layout/mediacontroller.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/bundles/release/res/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/androidTest/debug/io/vov/vitamio/test/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL$ComponentSizeChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLConfigChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLContextFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL$SimpleEGLConfigChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/EGL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaFile$MediaFileType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaMetadataRetriever.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$EventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnBufferingUpdateListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnCachingUpdateListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnCompletionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnErrorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnHWRenderFailedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnInfoListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnPreparedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnSeekCompleteListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnTimedTextListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$OnVideoSizeChangedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer$TrackInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaPlayer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$FileCacheEntry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaScanner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/MediaScannerClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/Metadata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/ThumbnailUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/VIntent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/Vitamio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/VitamioLicense.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity$UIHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/activity/InitActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio$AudioColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio$Media.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Audio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$MediaColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$Media.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video$VideoColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore$Video.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MediaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/provider/MiniThumbFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Coder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Decoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64$Encoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Base64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/CPU.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/ContextUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Crypto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Device.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/FileUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/IOUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/Log.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/ScreenResolution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/utils/StringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/CenterLayout$LayoutParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/CenterLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$MediaPlayerControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$OnHiddenListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController$OnShownListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/MediaController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/OutlineTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$5$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/debug/io/vov/vitamio/widget/VideoView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL$ComponentSizeChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLConfigChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLContextFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL$EGLWindowSurfaceFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL$SimpleEGLConfigChooser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/EGL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaFile$MediaFileType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaFormat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaMetadataRetriever.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$EventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnBufferingUpdateListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnCachingUpdateListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnCompletionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnErrorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnHWRenderFailedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnInfoListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnPreparedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnSeekCompleteListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnTimedTextListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$OnVideoSizeChangedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer$TrackInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaPlayer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$FileCacheEntry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaScanner$MyMediaScannerClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaScanner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/MediaScannerClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/Metadata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/ThumbnailUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/VIntent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/Vitamio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/VitamioLicense.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity$UIHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/activity/InitActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio$AudioColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio$Media.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Audio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$InternalThumbnails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$MediaColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$Media.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$Thumbnails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video$VideoColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore$Video.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MediaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/provider/MiniThumbFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Coder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Decoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Base64$Encoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Base64.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/CPU.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/ContextUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Crypto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Device.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/FileUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/IOUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/Log.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/ScreenResolution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/utils/StringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/CenterLayout$LayoutParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/CenterLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$MediaPlayerControl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$OnHiddenListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController$OnShownListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/MediaController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/OutlineTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$5$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/classes/release/io/vov/vitamio/widget/VideoView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental-safeguard/release/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libOMX.24.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/arm64-v8a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libOMX.11.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvvo.7.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvvo.8.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/armeabi-v7a/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/debug/x86/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libOMX.24.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/arm64-v8a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libOMX.11.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvvo.7.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvvo.8.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/armeabi-v7a/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/jniLibs/release/x86/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/mediacontroller_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/mediacontroller_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_control_disabled_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_control_focused_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_control_normal_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_control_pressed_holo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_primary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_secondary_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/layout/mediacontroller.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libOMX.24.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/arm64-v8a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libOMX.11.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvvo.7.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvvo.8.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/armeabi-v7a/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/3/main/lib/x86/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libOMX.24.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/arm64-v8a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libOMX.11.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvvo.7.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvvo.8.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/armeabi-v7a/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libOMX.14.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libOMX.18.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libOMX.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libffmpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libstlport_shared.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libvao.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libvplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libvscanner.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libvvo.0.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libvvo.9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/intermediates/transforms/mergeJniLibs/release/folders/2000/3/main/lib/x86/libvvo.j.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/outputs/aar/InitActivity-debug.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/InitActivity/build/outputs/aar/InitActivity-release.aar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LiveStream.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/armeabi-v7a/liblbs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/mips/liblbs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/mips64/liblbs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/pldroid-player-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/tbs_sdk_thirdapp_v2.5.0.1031_36880_sharewithdownload_obfs_20161107_154437.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/tbs_sdk_thirdapp_v2.5.0.1037_36880_minsize_obfs_20161110_102536.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/x86/liblbs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/x86_64/liblbs.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/WebViewActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/annotation/Implement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/common/CommonLiveVideoModelLogic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/home/HomeCate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/home/HomeCateList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/home/bean/HomeCate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/presenter/live/impl/LivePresenterImp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/presenter/live/interfaces/LiveContract.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/ui/popuwindow/BasePopub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/ui/popuwindow/BasePopubWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/ui/popuwindow/SlideFromBottomPopup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/ui/refreshview/utils/LogUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/fragment/FollowFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/fragment/HomeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/fragment/LiveFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/fragment/UserFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/fragment/VideoFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/home/fragment/OtherFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/home/fragment/recommend/RecommendFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/jniLibs/arm64-v8a/libpldroidplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libpldroidplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libpldroidplayer.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libpldroidplayer.so" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InitActivity/InitActivity.iml" afterPath="$PROJECT_DIR$/InitActivity/InitActivity.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LiveStream.iml" afterPath="$PROJECT_DIR$/LiveStream.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/PcLiveVideoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/PcLiveVideoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/PhoneLiveVideoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/PhoneLiveVideoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/video/adapter/VideoRecommendAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/video/adapter/VideoRecommendAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/video/adapter/VideoRecommendAllColumnAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/video/adapter/VideoRecommendAllColumnAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/video/adapter/VideoRecommendHotColumnAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/video/adapter/VideoRecommendHotColumnAdapter.java" />
     </list>
     <ignored path="LiveStream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -605,18 +45,28 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+            <state relative-caret-position="120">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="1645">
+              <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3025,7 +2475,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5984798995000" />
+        <entry key="$PROJECT_DIR$" value="5984802091000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3589,7 +3039,6 @@
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/team/finn/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/live/bean/LIveOtherTwoColumn.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/live/bean/LiveOtherTwoColumn.java" />
@@ -3599,6 +3048,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/live/bean/LiveAlllist.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -3664,8 +3114,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/res" />
     </key>
   </component>
@@ -4018,11 +3468,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-109" width="900" height="1417" extended-state="1" />
+    <frame x="1280" y="-109" width="900" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32967892" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.321786" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321786" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44522145" sideWeight="0.50851303" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4229,7 +3679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/team/finn/model/logic/live/LiveAllListModelLogic.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -4310,14 +3759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/fragment/FollowFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -4328,11 +3769,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/team/finn/view/common/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="1645">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
