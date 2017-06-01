@@ -15,6 +15,7 @@ import okhttp3.ConnectionPool;
 
 
 /**
+ *  作者：finn
  *  版本号：1.0
  *  备注消息：   对网络进行配置
  **/

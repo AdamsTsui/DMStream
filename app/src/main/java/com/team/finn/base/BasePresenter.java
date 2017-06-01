@@ -6,6 +6,7 @@ import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 
 /**
+ *  作者：finn
  *  版本号：1.0
  *         1.获取绑定View实例传递到子类中进行调用!
  *

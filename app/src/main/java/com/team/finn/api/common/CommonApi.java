@@ -13,6 +13,7 @@ import retrofit2.http.QueryMap;
 import static com.team.finn.api.NetWorkApi.getLiveVideo;
 
 /**
+ *  作者：finn
  *  版本号：1.0
  *  备注消息：
  **/

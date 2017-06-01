@@ -26,6 +26,7 @@ import butterknife.BindView;
 import static com.team.finn.R.id.img_popup_live;
 
 /**
+ * 作者：finn
  * 版本号：1.0
  * 备注消息：
  **/

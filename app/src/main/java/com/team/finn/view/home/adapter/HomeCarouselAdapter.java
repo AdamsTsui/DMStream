@@ -15,6 +15,7 @@ import com.team.finn.utils.L;
 import cn.bingoogolapple.bgabanner.BGABanner;
 
 /**
+ * 作者：${User}
  * 版本号：
  */
 public class HomeCarouselAdapter implements BGABanner.Adapter<SimpleDraweeView, String> {

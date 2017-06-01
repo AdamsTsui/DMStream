@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 作者：finn
  * 版本号：1.0
  * 备注消息：
  **/
@@ -32,10 +33,12 @@ public class VideoRecommendAdapter extends BaseRecyclerAdapter<RecyclerView.View
 
     //    最热栏目
     private List<VideoHotColumn> mVideoHotColumn;
+    //    作者栏目
     private List<VideoHotAuthorColumn> mVideoHotAuthorColumn;
     private Context context;
     //    最热adapter
     private VideoRecommendHotColumnAdapter mHotColumnAdapter;
+    //    作者
     private VideoHotAuthorColumnAdapter mVideoHotAuthorColumnAdapter;
     //    全部栏目
     private List<VideoRecommendHotCate> mVideoRecommendHotCate;
@@ -71,6 +74,7 @@ public class VideoRecommendAdapter extends BaseRecyclerAdapter<RecyclerView.View
     }
 
     /**
+     * 作者栏目
      *
      * @param
      */
@@ -147,6 +151,7 @@ public class VideoRecommendAdapter extends BaseRecyclerAdapter<RecyclerView.View
     }
 
     /**
+     *  热门作者
      * @param holder
      * @param position
      * @param isItem
@@ -154,6 +159,7 @@ public class VideoRecommendAdapter extends BaseRecyclerAdapter<RecyclerView.View
     private void bindFaceScoreColumnHolder(ColumnViewHolder holder, int position, boolean isItem) {
 
         holder.img_column_icon.setImageResource(R.mipmap.icon_reco_mobile);
+        holder.tv_column_name.setText("热门作者");
         holder.rv_column_list.setLayoutManager(new FullyGridLayoutManager(holder.rv_column_list.getContext(), 1, GridLayoutManager.VERTICAL, false));
         holder.rv_column_list.setAdapter(mVideoHotAuthorColumnAdapter);
         holder.rl_column_more.setOnClickListener(new View.OnClickListener() {

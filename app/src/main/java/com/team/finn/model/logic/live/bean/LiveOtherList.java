@@ -1,6 +1,7 @@
 package com.team.finn.model.logic.live.bean;
 
 /**
+ * 作者：${User}
  * 版本号：
  */
 

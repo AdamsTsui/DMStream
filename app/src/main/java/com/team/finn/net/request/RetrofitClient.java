@@ -8,6 +8,7 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
+ *  作者：finn
  *  版本号：1.0
  *  备注消息：
  **/

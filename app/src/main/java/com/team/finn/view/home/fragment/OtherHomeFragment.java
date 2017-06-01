@@ -32,6 +32,7 @@ import butterknife.BindView;
 
 
 /**
+ * 作者：finn
  * 版本号：1.0
  * 备注消息：首页 列表页  显示 手游,娱乐,游戏,趣玩等!
  **/

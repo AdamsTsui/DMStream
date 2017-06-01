@@ -3,6 +3,7 @@ package com.team.finn.model.logic.home.bean;
 import java.util.List;
 
 /**
+ * 作者：${User}
  * 版本号：
  */
 

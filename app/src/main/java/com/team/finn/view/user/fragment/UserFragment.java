@@ -12,6 +12,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
+ * 作者：finn
  * 版本号：1.0
  * 备注消息：
  **/
@@ -21,8 +22,7 @@ public class UserFragment extends BaseFragment {
 
     @Override
     protected int getLayoutId() {
-        return R.layout.fragment_home;
-    }
+        return R.layout.fragment_mine;   }
 
     @Override
     protected void onInitView(Bundle bundle) {

@@ -29,6 +29,7 @@ import static com.team.finn.api.NetWorkApi.getHomeHotColumn;
 import static com.team.finn.api.NetWorkApi.getHomeRecommendHotCate;
 
 /**
+ * 作者：finn
  * 版本号：1.0
  * 备注消息：
  **/

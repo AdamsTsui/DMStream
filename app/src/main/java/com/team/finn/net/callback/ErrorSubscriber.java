@@ -5,6 +5,7 @@ import com.team.finn.utils.L;
 import rx.Subscriber;
 
 /**
+ * 作者：${User}
  * 版本号：
  */
 

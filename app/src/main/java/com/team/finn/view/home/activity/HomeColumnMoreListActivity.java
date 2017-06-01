@@ -24,6 +24,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
+ * 作者：finn
  * 版本号：1.0
  * 备注消息：
  **/

@@ -14,6 +14,7 @@ import retrofit2.adapter.rxjava.HttpException;
 
 
 /**
+ *  作者：finn
  *  版本号：1.0
  *                     展示友好UI界面给用户
  *  备注消息：
