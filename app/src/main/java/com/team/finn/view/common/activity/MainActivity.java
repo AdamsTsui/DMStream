@@ -1,20 +1,14 @@
 package com.team.finn.view.common.activity;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.AttributeSet;
 import android.view.KeyEvent;
-import android.view.View;
 import android.widget.Toast;
 
-import com.tbruyelle.rxpermissions.RxPermissions;
 import com.team.finn.R;
-import com.team.finn.base.BaseActivity;
 import com.team.finn.base.BaseView;
 import com.team.finn.ui.NavigateTabBar;
-import com.team.finn.utils.PermissionUtil;
 import com.team.finn.view.follow.fragment.FollowFragment;
 import com.team.finn.view.home.fragment.HomeFragment;
 import com.team.finn.view.live.fragment.LiveFragment;
@@ -84,6 +78,7 @@ public class MainActivity extends  AppCompatActivity implements BaseView{
                         break;
 //                    我的
                     case TAG_PAGE_USER:
+                        if(mNavigateTabBar!=null)
                         mNavigateTabBar.showFragment(holder);
                         break;
                 }
@@ -118,7 +113,7 @@ public class MainActivity extends  AppCompatActivity implements BaseView{
      */
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == android.view.KeyEvent.KEYCODE_BACK) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
             exit();
             return false;
         }

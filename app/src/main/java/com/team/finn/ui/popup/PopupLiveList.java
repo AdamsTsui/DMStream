@@ -1,20 +1,12 @@
 package com.team.finn.ui.popup;
 
-import android.animation.Animator;
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.view.View;
 import android.view.animation.Animation;
-import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.team.finn.R;
-import com.team.finn.model.logic.live.bean.LiveOtherTwoColumn;
 import com.team.finn.view.live.adapter.LivePopupListAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import razerdp.basepopup.BasePopupWindow;
 
