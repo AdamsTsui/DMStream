@@ -455,8 +455,9 @@ public class PcLiveVideoActivity extends BaseActivity<CommonPcLiveVideoModelLogi
             //        释放资源
             vmVideoview.stopPlayback();
         }
-        mDanmuProcess.finish();
         danmakuView.release();
+        mDanmuProcess.finish();
+        danmakuView.clear();
         super.onDestroy();
     }
 

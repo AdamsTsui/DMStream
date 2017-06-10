@@ -3,7 +3,6 @@
     <color name="colorPrimary">#ff7800</color>
     <color name="colorPrimaryDark">#ff7800</color>
     <color name="colorAccent">#FF4081</color>
-
     <!--主界面-->
     <color name="tab_text_normal">#212121</color>
     <!--TabBar 字体颜色-->

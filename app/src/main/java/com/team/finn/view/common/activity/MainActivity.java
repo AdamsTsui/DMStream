@@ -19,6 +19,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
+import static com.team.finn.R.id.mainTabBar;
+
 /**
  *  作者：finn
  *  版本号：1.0
@@ -34,7 +36,7 @@ public class MainActivity extends  AppCompatActivity implements BaseView{
     //    退出时间
     private long exitTime = 0;
 
-    @BindView(R.id.mainTabBar)
+    @BindView(mainTabBar)
     NavigateTabBar mNavigateTabBar;
     NavigateTabBar.ViewHolder mHolder;
 
@@ -45,7 +47,7 @@ public class MainActivity extends  AppCompatActivity implements BaseView{
         unbinder = ButterKnife.bind(this);
         mNavigateTabBar.onRestoreInstanceState(savedInstanceState);
         mNavigateTabBar.addTab(HomeFragment.class, new NavigateTabBar.TabParam(R.mipmap.home_pressed, R.mipmap
-                .home_selected, TAG_PAGE_HOME));
+                .home_selected,TAG_PAGE_HOME));
         mNavigateTabBar.addTab(LiveFragment.class, new NavigateTabBar.TabParam(R.mipmap.live_pressed, R.mipmap
                 .live_selected, TAG_PAGE_LIVE));
         mNavigateTabBar.addTab(VideoFragment.class, new NavigateTabBar.TabParam(R.mipmap.video, R
@@ -65,7 +67,6 @@ public class MainActivity extends  AppCompatActivity implements BaseView{
                         break;
 //                    直播
                     case TAG_PAGE_LIVE:
-
                         mNavigateTabBar.showFragment(holder);
                         break;
 //                    视频

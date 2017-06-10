@@ -27,7 +27,6 @@
         tl:tl_textBold="BOTH"
         tl:tl_textSelectColor="#ff7800"
         tl:tl_textUnselectColor="#707070"
-
         />
         <View
             android:elevation="2dp"

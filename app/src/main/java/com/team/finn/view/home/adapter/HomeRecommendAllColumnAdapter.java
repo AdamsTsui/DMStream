@@ -66,6 +66,7 @@ public class HomeRecommendAllColumnAdapter extends RecyclerView.Adapter<Recycler
                     Intent intent = new Intent(context, PhoneLiveVideoActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("Room_id",mRommListEntity.get(position).getRoom_id());
+                    bundle.putString("Img_Path", mRommListEntity.get(position).getVertical_src());
                     intent.putExtras(bundle);
                     context.startActivity(intent);
                 }else {

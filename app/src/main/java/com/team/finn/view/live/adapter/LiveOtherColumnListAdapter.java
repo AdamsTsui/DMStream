@@ -85,6 +85,7 @@ public class LiveOtherColumnListAdapter extends BaseRecyclerAdapter<RecyclerView
                     Intent intent = new Intent(context, PhoneLiveVideoActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("Room_id",mLiveList.get(position).getRoom_id());
+                    bundle.putString("Img_Path", mLiveList.get(position).getVertical_src());
                     intent.putExtras(bundle);
                     context.startActivity(intent);
                 }else {

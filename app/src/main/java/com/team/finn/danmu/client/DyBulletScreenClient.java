@@ -132,8 +132,6 @@ public class DyBulletScreenClient {
     private void loginRoom(int roomId) {
         //获取弹幕服务器登陆请求数据包
         byte[] loginRequestData = DyMessage.getLoginRequestData(roomId);
-
-
         try {
             //发送登陆请求数据包给弹幕服务器
             bos.write(loginRequestData, 0, loginRequestData.length);
@@ -239,7 +237,6 @@ public class DyBulletScreenClient {
      */
     private void parseServerMsg(Map<String, Object> msg) {
         if (msg.get("type") != null) {
-
             //服务器反馈错误信息
             if (msg.get("type").equals("error")) {
                 Log.d(TAG, "parseServerMsg: msg.toString()=" + msg.toString());

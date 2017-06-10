@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.github.moduth.blockcanary.BlockCanary;
 import com.squareup.leakcanary.LeakCanary;
 import com.team.finn.api.NetWorkApi;
 import com.team.finn.net.config.NetWorkConfiguration;
@@ -20,8 +21,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 
 /**
@@ -40,12 +39,16 @@ public class DYApplication extends Application {
     public void onCreate() {
         super.onCreate();
         context = getApplicationContext();
+//        Buy收集
         String packageName = context.getPackageName();
-       String processName= getProcessName(Process.myPid());
-        CrashReport.UserStrategy strategy=new CrashReport.UserStrategy(context);
-        strategy.setUploadProcess(processName==null||processName.equals(packageName));
-        CrashReport.initCrashReport(context,"3d003498d9",false);
+        String processName = getProcessName(Process.myPid());
+        CrashReport.UserStrategy strategy = new CrashReport.UserStrategy(context);
+        strategy.setUploadProcess(processName == null || processName.equals(packageName));
+        CrashReport.initCrashReport(context, "3d003498d9", false);
+//        图片加载
         Fresco.initialize(context);
+        // UI卡顿检测工具
+        BlockCanary.install(this, new AppBlockCanaryContext()).start();
         //搜集本地tbs内核信息并上报服务器，服务器返回结果决定使用哪个内核。
         //TbsDownloader.needDownload(getApplicationContext(), false);
 
@@ -66,48 +69,50 @@ public class DYApplication extends Application {
         QbSdk.setTbsListener(new TbsListener() {
             @Override
             public void onDownloadFinish(int i) {
-                Log.d("app","onDownloadFinish is " + i);
+                Log.d("app", "onDownloadFinish is " + i);
             }
 
             @Override
             public void onInstallFinish(int i) {
-                Log.d("app","onInstallFinish is " + i);
+                Log.d("app", "onInstallFinish is " + i);
             }
 
             @Override
             public void onDownloadProgress(int i) {
-                Log.d("app","onDownloadProgress:"+i);
+                Log.d("app", "onDownloadProgress:" + i);
             }
         });
 
-        QbSdk.initX5Environment(getApplicationContext(),  cb);
+        QbSdk.initX5Environment(getApplicationContext(), cb);
+//        网络库初始化
         initOkHttpUtils();
         PageManager.initInApp(context);
+//        内存泄漏检测
         initLeakCanary();
     }
 
     private void initLeakCanary() {
-        if(LeakCanary.isInAnalyzerProcess(this)) {
+        if (LeakCanary.isInAnalyzerProcess(this)) {
             return;
         }
         LeakCanary.install(this);
     }
 
     private static String getProcessName(int pid) {
-        BufferedReader reader=null;
+        BufferedReader reader = null;
         try {
-            reader= new BufferedReader(new FileReader("/proc/"+pid+"/cmdline"));
+            reader = new BufferedReader(new FileReader("/proc/" + pid + "/cmdline"));
             String processName = reader.readLine();
-            if(!TextUtils.isEmpty(processName)) {
-                processName=processName.trim();
+            if (!TextUtils.isEmpty(processName)) {
+                processName = processName.trim();
             }
             return processName;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
-            if(reader!=null) {
+        } finally {
+            if (reader != null) {
                 try {
                     reader.close();
                 } catch (IOException e) {

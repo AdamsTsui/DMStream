@@ -89,6 +89,7 @@ public class LiveAllListAdapter extends BaseRecyclerAdapter<RecyclerView.ViewHol
                     Intent intent = new Intent(context, PhoneLiveVideoActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("Room_id", mLiveList.get(position).getRoom_id());
+                    bundle.putString("Img_Path", mLiveList.get(position).getVertical_src());
                     intent.putExtras(bundle);
                     context.startActivity(intent);
                 } else if (mLiveList.get(position).getCate_id() == 207) {

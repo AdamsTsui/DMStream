@@ -16,7 +16,6 @@ import com.team.finn.R;
 import com.team.finn.model.logic.home.bean.HomeFaceScoreColumn;
 import com.team.finn.ui.refreshview.recyclerview.BaseRecyclerAdapter;
 import com.team.finn.utils.CalculationUtils;
-import com.team.finn.view.common.activity.PcLiveVideoActivity;
 import com.team.finn.view.common.activity.PhoneLiveVideoActivity;
 
 import java.util.ArrayList;
@@ -77,6 +76,7 @@ public class HomeRecommendFaceScoreColumnAdapter extends BaseRecyclerAdapter<Rec
                 Intent intent = new Intent(context, PhoneLiveVideoActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("Room_id", mHomeFaceScoreColumn.get(position).getRoom_id());
+                bundle.putString("Img_Path", mHomeFaceScoreColumn.get(position).getVertical_src());
                 intent.putExtras(bundle);
                 context.startActivity(intent);
             }

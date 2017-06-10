@@ -14,7 +14,6 @@ import android.widget.TextView;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.team.finn.R;
-import com.team.finn.model.logic.home.bean.HomeColumnMoreAllList;
 import com.team.finn.model.logic.home.bean.HomeColumnMoreOtherList;
 import com.team.finn.ui.refreshview.recyclerview.BaseRecyclerAdapter;
 import com.team.finn.utils.CalculationUtils;
@@ -90,6 +89,7 @@ public class HomeColumnMoreOtherListAdapter extends BaseRecyclerAdapter<Recycler
                     Intent intent = new Intent(context, PhoneLiveVideoActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("Room_id", mLiveList.get(position).getRoom_id());
+                    bundle.putString("Img_Path", mLiveList.get(position).getVertical_src());
                     intent.putExtras(bundle);
                     context.startActivity(intent);
                 } else if (mLiveList.get(position).getCate_id() == 207) {

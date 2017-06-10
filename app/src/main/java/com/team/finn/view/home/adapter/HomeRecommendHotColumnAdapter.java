@@ -65,6 +65,7 @@ public class HomeRecommendHotColumnAdapter extends RecyclerView.Adapter<Recycler
                     Intent intent = new Intent(context, PhoneLiveVideoActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("Room_id",mHomeHotColumn.get(position).getRoom_id());
+                    bundle.putString("Img_Path", mHomeHotColumn.get(position).getVertical_src());
                     intent.putExtras(bundle);
                     context.startActivity(intent);
                 }else {
