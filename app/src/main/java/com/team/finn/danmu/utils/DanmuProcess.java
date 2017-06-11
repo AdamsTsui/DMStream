@@ -1,7 +1,6 @@
 package com.team.finn.danmu.utils;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
@@ -43,7 +42,8 @@ public class DanmuProcess {
      * 弹幕  随机颜色
      */
     private Random random;
-    private int[] ranColor = {0xe0ffffff,
+    private int[] ranColor = {
+            0xe0ffffff,
             0xe0F0E68C,
             0xe0F08080,
             0xe0FFC0CB,

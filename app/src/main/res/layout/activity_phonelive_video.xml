@@ -20,7 +20,9 @@
         <master.flame.danmaku.ui.widget.DanmakuView
             android:id="@+id/danmakuView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+
+            />
     <!--控制层-->
     <include layout="@layout/layout_phonelive_control" />
     </FrameLayout>
