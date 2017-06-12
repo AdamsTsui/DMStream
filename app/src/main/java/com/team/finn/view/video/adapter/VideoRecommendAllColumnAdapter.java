@@ -2,6 +2,7 @@ package com.team.finn.view.video.adapter;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -13,9 +14,8 @@ import com.chad.library.adapter.base.BaseViewHolder;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.team.finn.R;
 import com.team.finn.model.logic.video.bean.VideoRecommendHotCate;
+import com.team.finn.view.live.activity.WebViewActivity;
 
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -71,6 +71,14 @@ public class VideoRecommendAllColumnAdapter extends RecyclerView.Adapter<Recycle
         Date date=new Date( mVideoListEntity.get(position).getCtime());
         holder.tv_video_time.setText(mSimpeDateFormat.format(date));
         holder.tv_watchnum.setText(Integer.toString(mVideoListEntity.get(position).getView_num()));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, WebViewActivity.class);
+                intent.putExtra("web_url", "https://v.douyu.com/show/" + mVideoListEntity.get(position).getHash_id());
+                context.startActivity(intent);
+            }
+        });
     }
     @Override
     public int getItemCount() {

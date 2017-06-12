@@ -1,6 +1,7 @@
 package com.team.finn.view.video.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,18 +12,18 @@ import android.widget.TextView;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.team.finn.R;
-import com.team.finn.model.logic.live.bean.LiveOtherList;
 import com.team.finn.model.logic.video.bean.VideoOtherColumnList;
 import com.team.finn.ui.refreshview.recyclerview.BaseRecyclerAdapter;
 import com.team.finn.utils.CalculationUtils;
+import com.team.finn.view.live.activity.WebViewActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- *  作者：finn
- *  版本号：1.0
- *  备注消息：
+ * 作者：finn
+ * 版本号：1.0
+ * 备注消息：
  **/
 public class VideoOtherColumnListAdapter extends BaseRecyclerAdapter<RecyclerView.ViewHolder> {
 
@@ -67,12 +68,21 @@ public class VideoOtherColumnListAdapter extends BaseRecyclerAdapter<RecyclerVie
         holder.tv_column_item_nickname.setText(mLiveList.get(position).getVideo_title());
         holder.tv_nickname.setText(mLiveList.get(position).getNickname());
         holder.tv_online_num.setText(CalculationUtils.getOnLine(Integer.parseInt(mLiveList.get(position).getView_num())));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, WebViewActivity.class);
+                intent.putExtra("web_url", "https://v.douyu.com/show/" + mLiveList.get(position).getHash_id());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
     public int getAdapterItemCount() {
         return this.mLiveList.size();
     }
+
     public class LiveOtherColumnListHolder extends BaseViewHolder {
         //        图片
         public SimpleDraweeView img_item_gridview;

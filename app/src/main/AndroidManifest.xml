@@ -24,6 +24,7 @@
     <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.READ_LOGS" />
+
     <application
         android:name=".application.DYApplication"
         android:allowBackup="true"
@@ -92,6 +93,13 @@
         <activity
             android:name=".view.home.activity.HomeColumnMoreListActivity"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".view.video.activity.VideoPcVideoInfoActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar.AppBaseThemeMain"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
     </application>
 
 </manifest>
