@@ -232,4 +232,23 @@ public class DanmuProcess {
             // 禁用描边绘制
         }
     }
+
+    public void close() {
+        if (mContext != null) {
+            mContext = null;
+        }
+        if (mDanmakuView != null) {
+            mDanmakuView = null;
+        }
+        if (mDanmakuContext != null) {
+            mDanmakuContext = null;
+        }
+        if (mDanmuClient != null) {
+            mDanmuClient = null;
+        }
+        if (mParser != null) {
+            mParser = null;
+        }
+
+    }
 }

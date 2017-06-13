@@ -1,12 +1,16 @@
 package com.team.finn.view.common.activity;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.PointF;
+import android.graphics.drawable.BitmapDrawable;
 import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
+import android.support.v4.content.res.ResourcesCompat;
 import android.util.Pair;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -28,7 +32,11 @@ import com.team.finn.model.logic.common.bean.OldLiveVideoInfo;
 import com.team.finn.model.logic.home.bean.HomeRecommendHotCate;
 import com.team.finn.presenter.common.impl.CommonPhoneLiveVideoPresenterImp;
 import com.team.finn.presenter.common.interfaces.CommonPhoneLiveVideoContract;
+import com.team.finn.ui.DivergeView;
 import com.team.finn.ui.loadplay.LoadingView;
+import com.team.finn.view.common.fragment.MainDialogFragment;
+
+import java.util.ArrayList;
 
 import butterknife.BindView;
 import io.vov.vitamio.MediaPlayer;
@@ -66,11 +74,16 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
     DanmakuView danmakuView;
     @BindView(R.id.img_loading)
     SimpleDraweeView imgLoading;
+    @BindView(R.id.divergeView)
+    DivergeView divergeView;
     private HomeRecommendHotCate.RoomListEntity mRoomEntity;
     private OldLiveVideoInfo videoInfo;
     private String Room_id;
     private SVProgressHUD svProgressHUD;
     private String imgUrl;
+    //    点赞 动画
+    private ArrayList<Bitmap> mList;
+    private int mIndex = 0;
 
     /**
      * 弹幕
@@ -128,6 +141,7 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
     @Override
     protected int getLayoutId() {
 //        requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏标题
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         Vitamio.isInitialized(this);
         return R.layout.activity_phonelive_video;
     }
@@ -150,12 +164,96 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
         initVolumeWithLight();
         vmVideoview.setVideoLayout(VideoView.VIDEO_LAYOUT_STRETCH, 0);
         initDanMu(Room_id);
-
+        initDrawView();
+        show();
+        new MainDialogFragment().show(getSupportFragmentManager(), "MainDialogFragment");
     }
 
     private void initDanMu(String room_id) {
         mDanmuProcess = new DanmuProcess(this, danmakuView, Integer.valueOf(room_id));
         mDanmuProcess.start();
+    }
+
+    private void hide() {
+        vmVideoview.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE
+                | View.SYSTEM_UI_FLAG_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+    }
+
+    private void show() {
+        vmVideoview.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+    }
+
+
+    public void initDrawView() {
+        /**
+         *  点赞
+         */
+        mList = new ArrayList<>();
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon1, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon2, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon3, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon4, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon5, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon6, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon7, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon8, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon9, null)).getBitmap());
+        mList.add(((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.prise_icon10, null)).getBitmap());
+        divergeView.post(new Runnable() {
+            @Override
+            public void run() {
+                divergeView.setEndPoint(new PointF(divergeView.getMeasuredWidth() / 2, 0));
+                divergeView.setDivergeViewProvider(new Provider());
+            }
+        });
+        /**
+         *  启动动画
+         */
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true) {
+                    if (divergeView != null) {
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (mIndex == 9) {
+                                    mIndex = 0;
+                                }
+                                if (divergeView != null) {
+                                    divergeView.startDiverges(mIndex);
+                                    mIndex++;
+                                }
+                            }
+                        });
+                        try {
+                            Thread.sleep(200);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+        }).start();
+
+    }
+
+    /**
+     * 巴塞尔曲线
+     */
+    class Provider implements DivergeView.DivergeViewProvider {
+
+        @Override
+        public Bitmap getBitmap(Object obj) {
+            return mList == null ? null : mList.get((int) obj);
+        }
     }
 
     /**
@@ -365,10 +463,16 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
      */
     @Override
     public void onBufferingUpdate(MediaPlayer mp, int percent) {
-        flLoading.setVisibility(View.VISIBLE);
-        if (vmVideoview.isPlaying())
-            vmVideoview.pause();
-        tvLoadingBuffer.setText("直播已缓冲" + percent + "%...");
+        if (flLoading != null) {
+            flLoading.setVisibility(View.VISIBLE);
+        }
+        if (vmVideoview != null) {
+            if (vmVideoview.isPlaying())
+                vmVideoview.pause();
+            if (tvLoadingBuffer != null) {
+                tvLoadingBuffer.setText("直播已缓冲" + percent + "%...");
+            }
+        }
     }
 
     @Override
@@ -407,9 +511,19 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
             //        释放资源
             vmVideoview.stopPlayback();
         }
-        danmakuView.release();
+        /**
+         *  销毁点赞动画
+         */
+        if (divergeView != null) {
+            divergeView.stop();
+            divergeView = null;
+        }
         mDanmuProcess.finish();
-        danmakuView.clear();
+        mDanmuProcess.close();
+        if (danmakuView != null) {
+            danmakuView.release();
+            danmakuView.clear();
+        }
         super.onDestroy();
     }
 
@@ -443,4 +557,5 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
         }
         return false;
     }
+
 }

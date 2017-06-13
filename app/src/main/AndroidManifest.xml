@@ -71,7 +71,7 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.AppBaseThemeMain"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
         <!--PC直播-->
         <activity
             android:name=".view.common.activity.PcLiveVideoActivity"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="SVCircleProgressBar">
-        <attr name="roundColor" format="color"/>
-        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
         <attr name="roundWidth" format="dimension"></attr>
         <attr name="max" format="integer"></attr>
         <attr name="style">
@@ -49,13 +49,38 @@
             <enum name="center" value="1" />
             <enum name="right" value="2" />
         </attr>
-        <attr name="rollviewpager_hint_paddingRight" format="dimension"/>
-        <attr name="rollviewpager_hint_paddingLeft" format="dimension"/>
-        <attr name="rollviewpager_hint_paddingTop" format="dimension"/>
-        <attr name="rollviewpager_hint_paddingBottom" format="dimension"/>
+        <attr name="rollviewpager_hint_paddingRight" format="dimension" />
+        <attr name="rollviewpager_hint_paddingLeft" format="dimension" />
+        <attr name="rollviewpager_hint_paddingTop" format="dimension" />
+        <attr name="rollviewpager_hint_paddingBottom" format="dimension" />
 
         <attr name="rollviewpager_play_delay" format="integer" />
         <attr name="rollviewpager_hint_color" format="color" />
         <attr name="rollviewpager_hint_alpha" format="integer" />
+    </declare-styleable>
+    <!-- 圆形头像 -->
+    <declare-styleable name="CustomRoundView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MagicTextView">
+        <attr name="innerShadowColor" format="color" />
+        <attr name="innerShadowRadius" format="float" />
+        <attr name="innerShadowDx" format="float" />
+        <attr name="innerShadowDy" format="float" />
+        <attr name="outerShadowColor" format="color" />
+        <attr name="outerShadowRadius" format="float" />
+        <attr name="outerShadowDx" format="float" />
+        <attr name="outerShadowDy" format="float" />
+        <attr name="typeface" format="string" />
+        <attr name="foreground" format="reference|color" />
+        <attr name="strokewidth" format="float" />
+        <attr name="strokemiter" format="float" />
+        <attr name="strokecolor" format="color" />
+        <attr name="strokeJoinStyle">
+            <enum name="miter" value="0" />
+            <enum name="bevel" value="1" />
+            <enum name="round" value="2" />
+        </attr>
     </declare-styleable>
 </resources>

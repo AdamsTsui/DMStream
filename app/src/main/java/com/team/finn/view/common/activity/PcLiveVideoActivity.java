@@ -413,10 +413,16 @@ public class PcLiveVideoActivity extends BaseActivity<CommonPcLiveVideoModelLogi
      */
     @Override
     public void onBufferingUpdate(MediaPlayer mp, int percent) {
-        flLoading.setVisibility(View.VISIBLE);
-        if (vmVideoview.isPlaying())
-            vmVideoview.pause();
-        tvLoadingBuffer.setText("直播已缓冲" + percent + "%...");
+        if (flLoading != null) {
+            flLoading.setVisibility(View.VISIBLE);
+        }
+        if (vmVideoview != null) {
+            if (vmVideoview.isPlaying())
+                vmVideoview.pause();
+            if (tvLoadingBuffer != null) {
+                tvLoadingBuffer.setText("直播已缓冲" + percent + "%...");
+            }
+        }
     }
 
     @Override
@@ -455,9 +461,12 @@ public class PcLiveVideoActivity extends BaseActivity<CommonPcLiveVideoModelLogi
             //        释放资源
             vmVideoview.stopPlayback();
         }
-        danmakuView.release();
         mDanmuProcess.finish();
-        danmakuView.clear();
+        mDanmuProcess.close();
+        if (danmakuView != null) {
+            danmakuView.release();
+            danmakuView.clear();
+        }
         super.onDestroy();
     }
 
