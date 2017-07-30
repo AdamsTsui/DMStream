@@ -24,7 +24,7 @@ import com.team.finn.base.BaseActivity;
 import com.team.finn.base.BaseView;
 import com.team.finn.danmu.utils.DanmuProcess;
 import com.team.finn.model.logic.common.CommonPcLiveVideoModelLogic;
-import com.team.finn.model.logic.common.bean.OldLiveVideoInfo;
+import com.team.finn.model.logic.common.bean.TempLiveVideoInfo;
 import com.team.finn.model.logic.home.bean.HomeRecommendHotCate;
 import com.team.finn.presenter.common.impl.CommonPcLiveVideoPresenterImp;
 import com.team.finn.presenter.common.interfaces.CommonPcLiveVideoContract;
@@ -92,7 +92,7 @@ public class PcLiveVideoActivity extends BaseActivity<CommonPcLiveVideoModelLogi
     @BindView(R.id.tv_loading_buffer)
     TextView tvLoadingBuffer;
     private HomeRecommendHotCate.RoomListEntity mRoomEntity;
-    private OldLiveVideoInfo videoInfo;
+    private TempLiveVideoInfo videoInfo;
     private String Room_id;
     private int mScreenWidth = 0;//屏幕宽度
     private boolean mIsFullScreen = true;//是否为全屏
@@ -211,7 +211,7 @@ public class PcLiveVideoActivity extends BaseActivity<CommonPcLiveVideoModelLogi
     }
 
     @Override
-    public void getViewPcLiveVideoInfo(OldLiveVideoInfo mLiveVideoInfo) {
+    public void getViewPcLiveVideoInfo(TempLiveVideoInfo mLiveVideoInfo) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -345,12 +345,12 @@ public class PcLiveVideoActivity extends BaseActivity<CommonPcLiveVideoModelLogi
      *
      * @param mLiveVideoInfo
      */
-    private void getViewInfo(OldLiveVideoInfo mLiveVideoInfo) {
-        String url = mLiveVideoInfo.getData().getLive_url();
+    private void getViewInfo(TempLiveVideoInfo mLiveVideoInfo) {
+        String url = mLiveVideoInfo.getData().getHls_url();
 //        String url="http://c.brightcove.com/services/mobile/streaming/index/rendition.m3u8?assetId=5330721253001&pubId=4938530621001&videoId=5330694577001";
         Uri uri = Uri.parse(url);
         if (tvLiveNickname != null) {
-            tvLiveNickname.setText(mLiveVideoInfo.getData().getRoom_name());
+//            tvLiveNickname.setText(mLiveVideoInfo.getData().getRoom_name());
         }
 
         if (vmVideoview != null) {

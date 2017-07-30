@@ -28,7 +28,7 @@ import com.team.finn.base.BaseActivity;
 import com.team.finn.base.BaseView;
 import com.team.finn.danmu.utils.DanmuProcess;
 import com.team.finn.model.logic.common.CommonPhoneLiveVideoModelLogic;
-import com.team.finn.model.logic.common.bean.OldLiveVideoInfo;
+import com.team.finn.model.logic.common.bean.TempLiveVideoInfo;
 import com.team.finn.model.logic.home.bean.HomeRecommendHotCate;
 import com.team.finn.presenter.common.impl.CommonPhoneLiveVideoPresenterImp;
 import com.team.finn.presenter.common.interfaces.CommonPhoneLiveVideoContract;
@@ -77,7 +77,7 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
     @BindView(R.id.divergeView)
     DivergeView divergeView;
     private HomeRecommendHotCate.RoomListEntity mRoomEntity;
-    private OldLiveVideoInfo videoInfo;
+    private TempLiveVideoInfo videoInfo;
     private String Room_id;
     private SVProgressHUD svProgressHUD;
     private String imgUrl;
@@ -310,7 +310,7 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
     }
 
     @Override
-    public void getViewPhoneLiveVideoInfo(OldLiveVideoInfo mLiveVideoInfo) {
+    public void getViewPhoneLiveVideoInfo(TempLiveVideoInfo mLiveVideoInfo) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -320,9 +320,9 @@ public class PhoneLiveVideoActivity extends BaseActivity<CommonPhoneLiveVideoMod
         });
     }
 
-    private void getViewInfo(OldLiveVideoInfo mLiveVideoInfo) {
+    private void getViewInfo(TempLiveVideoInfo mLiveVideoInfo) {
         if (mLiveVideoInfo.getData() != null) {
-            String url = mLiveVideoInfo.getData().getLive_url();
+            String url = mLiveVideoInfo.getData().getHls_url();
             Uri uri = Uri.parse(url);
             if (vmVideoview != null) {
                 vmVideoview.setVideoURI(uri);

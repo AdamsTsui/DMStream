@@ -6,7 +6,7 @@ import android.content.Context;
 import com.team.finn.base.BaseModel;
 import com.team.finn.base.BasePresenter;
 import com.team.finn.base.BaseView;
-import com.team.finn.model.logic.common.bean.OldLiveVideoInfo;
+import com.team.finn.model.logic.common.bean.TempLiveVideoInfo;
 
 import okhttp3.Request;
 
@@ -18,7 +18,7 @@ import okhttp3.Request;
 public interface CommonPcLiveVideoContract {
 
       interface View extends BaseView {
-           void getViewPcLiveVideoInfo(OldLiveVideoInfo mLiveVideoInfo);
+           void getViewPcLiveVideoInfo(TempLiveVideoInfo mLiveVideoInfo);
       }
     interface  Model extends BaseModel{
         Request getModelPcLiveVideoInfo(Context context, String room_id);

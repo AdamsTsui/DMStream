@@ -4,8 +4,7 @@ package com.team.finn.presenter.common.impl;
 import android.util.Log;
 
 import com.google.gson.Gson;
-import com.team.finn.model.logic.common.bean.OldLiveVideoInfo;
-import com.team.finn.presenter.common.interfaces.CommonPcLiveVideoContract;
+import com.team.finn.model.logic.common.bean.TempLiveVideoInfo;
 import com.team.finn.presenter.common.interfaces.CommonPhoneLiveVideoContract;
 import com.team.finn.utils.L;
 
@@ -44,7 +43,7 @@ public class CommonPhoneLiveVideoPresenterImp extends CommonPhoneLiveVideoContra
                     JSONObject jsonObject = new JSONObject(json);
                     if (jsonObject.getInt("error")==0) {
                         Gson gson = new Gson();
-                        OldLiveVideoInfo mLiveVideoInfo = gson.fromJson(json, OldLiveVideoInfo.class);
+                        TempLiveVideoInfo mLiveVideoInfo = gson.fromJson(json, TempLiveVideoInfo.class);
                         mView.getViewPhoneLiveVideoInfo(mLiveVideoInfo);
                     } else {
                         mView.showErrorWithStatus("获取数据失败!");

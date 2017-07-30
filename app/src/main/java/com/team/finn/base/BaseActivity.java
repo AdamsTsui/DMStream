@@ -3,7 +3,6 @@ package com.team.finn.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 
 import com.team.finn.model.ContractProxy;
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;

@@ -228,6 +228,7 @@ public class PageManager {
     }
 
 
+
     public static View generateCustomEmptyView(CharSequence word) {
         ViewGroup view = (ViewGroup) View.inflate(appContext, BASE_EMPTY_LAYOUT_ID, null);
 

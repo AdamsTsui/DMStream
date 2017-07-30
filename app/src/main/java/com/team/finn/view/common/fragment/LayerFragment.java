@@ -592,6 +592,9 @@ public class LayerFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        if (etInput != null) {
+            etInput = null;
+        }
         if (unbinder != null) {
             unbinder.unbind();
         }
